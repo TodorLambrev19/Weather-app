@@ -1,5 +1,5 @@
 🌤️ SkyCast: Modern Glassmorphism Weather Dashboard
-SkyCast е модерно уеб приложение за прогноза на времето, вдъхновено от минималистичния дизайн на Apple и Glassmorphism тенденциите. Проектът демонстрира умения в работата с API, динамично стилизиране и отзивчив (responsive) интерфейс.
+SkyCast е модерно уеб приложение за прогноза на времето, вдъхновено от минималистичния дизайн на Apple. Проектът демонстрира умения в работата с API, динамично стилизиране и responsive интерфейс.
 
 ✨ Ключови Характеристики
 Glassmorphism UI: Използване на backdrop-filter: blur за модерен "стъклен" ефект на контейнерите.
@@ -28,12 +28,7 @@ Build Tool: Vite
 
 🚀 Как да стартирате проекта локално
 Клонирайте хранилището:
-
-Bash
-
 git clone https://github.com/TodorLambrev19/Weather-app.git
 Инсталирайте зависимостите:
-
-Bash
-
 npm install
+npm run dev
