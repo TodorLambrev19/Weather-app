@@ -1,34 +1,33 @@
 🌤️ SkyCast: Modern Glassmorphism Weather Dashboard
-SkyCast е модерно уеб приложение за прогноза на времето, вдъхновено от минималистичния дизайн на Apple. Проектът демонстрира умения в работата с API, динамично стилизиране и responsive интерфейс.
+SkyCast is a high-end weather forecast application featuring a minimalist UI inspired by Apple’s design language and the Glassmorphism trend. This project showcases advanced React state management, dynamic styling, and professional-grade responsive layouts.
 
-✨ Ключови Характеристики
-Glassmorphism UI: Използване на backdrop-filter: blur за модерен "стъклен" ефект на контейнерите.
+✨ Key Features
+Glassmorphism UI: Implemented depth and clarity using backdrop-filter: blur and semi-transparent layers for a premium "frosted glass" look.
 
-Динамични фонове: Фоновото изображение се сменя автоматично според текущите метеорологични условия.
+Dynamic Background Themes: The application intelligently switches background images based on the current weather condition (Clear, Cloudy, Rainy, Snowy).
 
-Floating 3D Icons: Използване на прозрачни метеорологични икони с mix-blend-mode за триизмерен ефект зад температурата.
+Floating 3D Iconography: Features a transparent weather icon layer with mix-blend-mode positioned behind the temperature for a sleek 3D effect.
 
-Почасова и Седмична прогноза: Детайлна информация за следващите часове и пълна прогноза за седмицата.
+Comprehensive Forecasts: Includes a 2-column hourly grid and a detailed 7-day extended forecast.
 
-Smart Search: Позволява бързо търсене на градове по целия свят, подравнено перфектно с основното табло.
+Precision Layout: A perfectly aligned search bar and dashboard container with a 1100px max-width, ensuring a consistent desktop experience.
 
-📸 Скрийншоти
-![image (1)](https://github.com/user-attachments/assets/b6297dd3-7dbe-428b-902e-43285364e4ae)
-![image (2)](https://github.com/user-attachments/assets/a30a9dbf-f2b3-4c68-bae3-41eacbe5ae08)
-<em>Изглед на основното табло с почасова прогноза</em> </p>
+📸 Screenshots
+![image (1)](https://github.com/user-attachments/assets/11c4dbb2-35ef-44a0-82ab-a12728699b5a)
+![image (2)](https://github.com/user-attachments/assets/138bae69-5311-4675-90e7-262a2060103f)
 
-🛠️ Технически Стек
+Main Dashboard featuring clear city overview and hourly forecast
+
+🛠️ Tech Stack
 Frontend: React.js (Hooks, Functional Components)
 
-Стилизиране: Custom CSS3 (Flexbox, Grid)
+Styling: Custom CSS3 (Flexbox, CSS Grid)
 
-Data Source: Open-Meteo API (за данни в реално време)
+Data Source: Open-Meteo API (Real-time weather data)
 
 Build Tool: Vite
 
-🚀 Как да стартирате проекта локално
-Клонирайте хранилището:
-git clone https://github.com/TodorLambrev19/Weather-app.git
-Инсталирайте зависимостите:
+🚀 Getting Started
+Clone the repository: https://github.com/TodorLambrev19/Weather-app.git
 npm install
 npm run dev
