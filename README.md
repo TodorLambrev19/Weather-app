@@ -1,16 +1,40 @@
-# React + Vite
+🌤️ SkyCast: Modern Glassmorphism Weather Dashboard
+SkyCast е модерно уеб приложение за прогноза на времето, вдъхновено от минималистичния дизайн на Apple и Glassmorphism тенденциите. Проектът демонстрира умения в работата с API, динамично стилизиране и отзивчив (responsive) интерфейс.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Ключови Характеристики
+Glassmorphism UI: Използване на backdrop-filter: blur за модерен "стъклен" ефект на контейнерите.
 
-Currently, two official plugins are available:
+Динамични фонове: Фоновото изображение се сменя автоматично според текущите метеорологични условия.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Floating 3D Icons: Използване на прозрачни метеорологични икони с mix-blend-mode за триизмерен ефект зад температурата.
 
-## React Compiler
+Почасова и Седмична прогноза: Детайлна информация за следващите часове и пълна прогноза за седмицата.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Smart Search: Позволява бързо търсене на градове по целия свят, подравнено перфектно с основното табло.
 
-## Expanding the ESLint configuration
+📸 Скрийншоти
+<p align="center"> <img src="screenshot.jpg" alt="Main Dashboard View" width="800">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+<em>Изглед на основното табло с почасова прогноза</em> </p>
+
+🛠️ Технически Стек
+Frontend: React.js (Hooks, Functional Components)
+
+Стилизиране: Custom CSS3 (Flexbox, Grid)
+
+Data Source: Open-Meteo API (за данни в реално време)
+
+Build Tool: Vite
+
+🚀 Как да стартирате проекта локално
+Клонирайте хранилището:
+
+Bash
+
+git clone https://github.com/your-username/skycast-weather.git
+Инсталирайте зависимостите:
+
+Bash
+
+npm install
