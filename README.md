@@ -13,8 +13,7 @@ Floating 3D Icons: Използване на прозрачни метеорол
 Smart Search: Позволява бързо търсене на градове по целия свят, подравнено перфектно с основното табло.
 
 📸 Скрийншоти
-<p align="center"> <img src="screenshot.jpg" alt="Main Dashboard View" width="800">
-
+![image (1)](https://github.com/user-attachments/assets/b6297dd3-7dbe-428b-902e-43285364e4ae)
 
 <em>Изглед на основното табло с почасова прогноза</em> </p>
 
