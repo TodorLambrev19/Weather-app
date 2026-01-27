@@ -31,7 +31,7 @@ Build Tool: Vite
 
 Bash
 
-git clone https://github.com/your-username/skycast-weather.git
+git clone https://github.com/TodorLambrev19/Weather-app.git
 Инсталирайте зависимостите:
 
 Bash
