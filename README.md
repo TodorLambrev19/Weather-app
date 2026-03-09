@@ -22,14 +22,14 @@ A responsive weather dashboard built with **React** and the free **Open-Meteo AP
 
 ## ✨ Features
 
-- 🔍 **City search** with live autocomplete suggestions
-- 🌡️ **Current conditions** — temperature, feels-like, humidity, wind, pressure, precipitation
-- 🕐 **Hourly forecast** — scrollable 12-hour strip
-- 📅 **7-day forecast** — with rain bars and min/max temps
-- 🌅 **Sunrise & sunset** tracker with live sun position indicator
-- 🎨 **Dynamic theming** — background gradient changes based on weather conditions
-- 📱 **Fully responsive** — optimised for both desktop and mobile
-- ✨ **Animations** — staggered fade-ins, animated temperature counter, pulsing weather icon, shimmer loading skeletons
+-  **City search** with live autocomplete suggestions
+-  **Current conditions** — temperature, feels-like, humidity, wind, pressure, precipitation
+-  **Hourly forecast** — scrollable 12-hour strip
+-  **7-day forecast** — with rain bars and min/max temps
+-  **Sunrise & sunset** tracker with live sun position indicator
+-  **Dynamic theming** — background gradient changes based on weather conditions
+-  **Fully responsive** — optimised for both desktop and mobile
+-  **Animations** — staggered fade-ins, animated temperature counter, pulsing weather icon, shimmer loading skeletons
 
 ---
 
