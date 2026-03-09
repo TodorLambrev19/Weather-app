@@ -67,7 +67,7 @@ npm install
 npm run dev
 ```
 
-Then open [http://localhost:5173](http://localhost:5173) in your browser.
+Then open [http://localhost:5173] in your browser.
 
 ### Build for Production
 
@@ -98,7 +98,7 @@ src/
 
 ## 🌐 Live Demo
 
-> 🔗 [View Live on Vercel](#) ← *(add your Vercel link here)*
+> 🔗 [View Live on Vercel](https://spontaneous-dodol-a8bbe5.netlify.app/) ← *(add your Vercel link here)*
 
 ---
 
@@ -115,9 +115,3 @@ This project uses the free [Open-Meteo API](https://open-meteo.com/) — no API 
 
 **Todor Lambrev**
 - GitHub: [@TodorLambrev19](https://github.com/TodorLambrev19)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
