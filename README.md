@@ -1,33 +1,123 @@
-🌤️ SkyCast: Modern Glassmorphism Weather Dashboard
-SkyCast is a high-end weather forecast application featuring a minimalist UI inspired by Apple’s design language and the Glassmorphism trend. This project showcases advanced React state management, dynamic styling, and professional-grade responsive layouts.
+# 🌤️ Weather Dashboard
 
-✨ Key Features
-Glassmorphism UI: Implemented depth and clarity using backdrop-filter: blur and semi-transparent layers for a premium "frosted glass" look.
+A responsive weather dashboard built with **React** and the free **Open-Meteo API**. Features real-time weather data, a 7-day forecast, hourly breakdown, and smooth animations — fully responsive across desktop and mobile.
 
-Dynamic Background Themes: The application intelligently switches background images based on the current weather condition (Clear, Cloudy, Rainy, Snowy).
+---
 
-Floating 3D Iconography: Features a transparent weather icon layer with mix-blend-mode positioned behind the temperature for a sleek 3D effect.
+## 📸 Screenshots
 
-Comprehensive Forecasts: Includes a 2-column hourly grid and a detailed 7-day extended forecast.
+### Desktop View
+![Desktop - Sofia](./screenshots/desktop-sofia.jpg)
 
-Precision Layout: A perfectly aligned search bar and dashboard container with a 1100px max-width, ensuring a consistent desktop experience.
+### Mobile View
+![Mobile View](./screenshots/mobile-view.jpg)
 
-📸 Screenshots
-![image (1)](https://github.com/user-attachments/assets/11c4dbb2-35ef-44a0-82ab-a12728699b5a)
-![image (2)](https://github.com/user-attachments/assets/138bae69-5311-4675-90e7-262a2060103f)
+### Different Cities — Dynamic Theming
+![Desktop - Moscow](./screenshots/desktop-moscow.jpg)
 
-Main Dashboard featuring clear city overview and hourly forecast
+### City Search with Autocomplete
+![Search Dropdown](./screenshots/search-dropdown.jpg)
 
-🛠️ Tech Stack
-Frontend: React.js (Hooks, Functional Components)
+---
 
-Styling: Custom CSS3 (Flexbox, CSS Grid)
+## ✨ Features
 
-Data Source: Open-Meteo API (Real-time weather data)
+- 🔍 **City search** with live autocomplete suggestions
+- 🌡️ **Current conditions** — temperature, feels-like, humidity, wind, pressure, precipitation
+- 🕐 **Hourly forecast** — scrollable 12-hour strip
+- 📅 **7-day forecast** — with rain bars and min/max temps
+- 🌅 **Sunrise & sunset** tracker with live sun position indicator
+- 🎨 **Dynamic theming** — background gradient changes based on weather conditions
+- 📱 **Fully responsive** — optimised for both desktop and mobile
+- ✨ **Animations** — staggered fade-ins, animated temperature counter, pulsing weather icon, shimmer loading skeletons
 
-Build Tool: Vite
+---
 
-🚀 Getting Started
-Clone the repository: https://github.com/TodorLambrev19/Weather-app.git
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React 18 | UI framework |
+| Vite | Build tool |
+| Open-Meteo API | Free weather data (no API key needed) |
+| Open-Meteo Geocoding API | City search & coordinates |
+| CSS-in-JS (inline styles) | Styling & animations |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/TodorLambrev19/Weather-app.git
+
+# Navigate into the project
+cd Weather-app
+
+# Install dependencies
 npm install
+
+# Start the dev server
 npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── api/
+│   └── weather.js          # Open-Meteo API calls
+├── assets/                 # Static assets
+├── components/
+│   ├── SearchBar.jsx        # City search with autocomplete
+│   └── WeatherCard.jsx      # Main weather display card
+├── contexts/
+│   └── WeatherContext.jsx   # Global city/coords state
+├── utils/
+├── App.jsx                  # Root component & layout
+└── main.jsx                 # Entry point
+```
+
+---
+
+## 🌐 Live Demo
+
+> 🔗 [View Live on Vercel](#) ← *(add your Vercel link here)*
+
+---
+
+## 📡 API Reference
+
+This project uses the free [Open-Meteo API](https://open-meteo.com/) — no API key required.
+
+- **Weather data:** `api.open-meteo.com/v1/forecast`
+- **Geocoding:** `geocoding-api.open-meteo.com/v1/search`
+
+---
+
+## 👤 Author
+
+**Todor Lambrev**
+- GitHub: [@TodorLambrev19](https://github.com/TodorLambrev19)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
