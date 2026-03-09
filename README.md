@@ -1,4 +1,4 @@
-# 🌤️ Weathera App
+# 🌤️ Weather App
 
 A responsive weather dashboard built with **React** and the free **Open-Meteo API**. Features real-time weather data, a 7-day forecast, hourly breakdown, and smooth animations — fully responsive across desktop and mobile.
 
